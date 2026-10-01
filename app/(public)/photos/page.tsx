@@ -9,6 +9,7 @@ export default async function Photos() {
 
   return (
     <>
+    <h3>this is photo listing</h3>
      <PhotoList photos={photos} />
     </>
   )
