@@ -1,11 +1,13 @@
 import Link from "next/link";
 
 export default function Home() {
+
+
   return <div className="min-h-screen bg-gray-50">
   <div className="mx-auto max-w-7xl px-6 py-10">
     <div className="mb-8">
       <h1 className="text-3xl font-bold text-gray-900">
-        Dashboard. this is master branch
+        Dashboard. this is master branch. TES-VAR IS {process.env.TEST_VAR}
       </h1>
       <p className="mt-2 text-gray-600">
         Welcome to your logistics management system.
