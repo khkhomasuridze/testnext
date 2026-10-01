@@ -5,7 +5,7 @@ export default function Home() {
   <div className="mx-auto max-w-7xl px-6 py-10">
     <div className="mb-8">
       <h1 className="text-3xl font-bold text-gray-900">
-        Dashboard
+        Dashboard. this is new feature made on feature/product-improvements branch. this was fixed
       </h1>
       <p className="mt-2 text-gray-600">
         Welcome to your logistics management system.
