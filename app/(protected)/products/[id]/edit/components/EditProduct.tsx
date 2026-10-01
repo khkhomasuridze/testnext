@@ -1,8 +1,8 @@
 "use client"
 
-import { Product } from '@/app/models/Product'
 import React, { useActionState, useEffect, useRef, useState } from 'react'
 import { EditProductState, updateProduct } from '../actions'
+import { Product } from '@/app/features/products/types'
 
 
 const getInitialState = (): EditProductState =>{
